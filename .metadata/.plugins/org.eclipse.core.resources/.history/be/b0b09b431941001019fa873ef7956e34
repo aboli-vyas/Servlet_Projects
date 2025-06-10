@@ -1,0 +1,7 @@
+package sevlet_program;
+
+import jakarta.servlet.Servlet;
+
+public class Student implements Servlet  {
+
+}

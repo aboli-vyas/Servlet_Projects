@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #f6f9fc, #e0f7fa);
+    background-image: url("Images/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 40px;
+}
+h1{
+	color: 	#36454F;
+	font-family: "Font Name", fallback-font, generic-family;
+	font-size: 50px;
+	text-align: center;	
+}
+a{
+	 text-decoration: none;
+}
+button{
+	width:300px;
+	height: 55px;
+	margin-top: 50px;
+	margin-left: 520px;
+	background: white ;
+    color: black;
+    font-family: "Font Name", fallback-font, generic-family;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #f5d264;
+    color: black;
+}

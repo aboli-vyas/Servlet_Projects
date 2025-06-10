@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="register" method="post">
+		<div class="form-container">
+			<h2>Registration Form</h2>
+
+			<label for="firstname">First Name:</label> 
+			<input type="text" id="firstname" name="firstname" required> 
+			<label for="lastname">Last Name:</label> 
+			<input type="text" id="lastname" name="lastname" required> 
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required> 
+			<label for="mobile">Mobile Number:</label> 
+			<input type="tel" id="mobile" name="mobile" required> 
+			<label>Gender:</label>
+			<div class="gender">
+				<label><input type="radio" name="gender" value="Male"
+					required> Male</label> <label><input type="radio"
+					name="gender" value="Female"> Female</label> <label><input
+					type="radio" name="gender" value="Other"> Other</label>
+			</div>
+
+			<label for="city">City:</label> 
+			<input type="text" id="city" name="city" required> 
+			<label for="state">State:</label> 
+			<input type="text" id="state" name="state" required> 
+			<label for="country">Country:</label> 
+			<input type="text" id="country" name="country" required> 
+			<label for="education">Education:</label>
+			<select id="education" name="education" required>
+				<option value="">Select</option>
+				<option value="High School">High School</option>
+				<option value="Diploma">Diploma</option>
+				<option value="Undergraduate">Undergraduate</option>
+				<option value="Postgraduate">Postgraduate</option>
+			</select>
+			 <label for="tenth">10th Marks (%):</label> 
+			 <input type="number" id="tenth" step = "any" name="tenth" required> 
+			 <label for="twelfth">12th Marks (%):</label> 
+			 <input type="number" id="twelfth" step = "any" name="twelfth" required>
+
+			<label for="dob">Date of Birth:</label> 
+			<input type="date" id="dob" name="dob" required> 
+			<label>Technical Skills:</label>
+			<div class="checkbox-group">
+				<label><input type="checkbox" name="skills" value="Java">Java</label> 
+				<label><input type="checkbox" name="skills" value="Python"> Python</label> 
+					<label><input type="checkbox" name="skills" value="C++"> C++</label> 
+					<label><input type="checkbox" name="skills" value="HTML"> HTML</label> 
+					<label><input type="checkbox" name="skills" value="CSS"> CSS</label> 
+					<label><input type="checkbox" name="skills" value="JavaScript">JavaScript</label>
+			</div>
+
+			<label for="password">Password:</label> 
+			<input type="password" id="password" name="password" required>
+			<p style = "color: red;">Password must be min 8 characters long. Atleast contains 1 special character and 1 digit.</p>
+			<button type="submit">Register</button>
+		</div>
+		 <label style="margin-left: 550px">Already have an account ?<a href="Login.html"><u>Log in</u></a></label>
+	</form>
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<form action="login" method="post">
+  <div class="login-container">
+    <h2>Login</h2>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+
+      <p class="error-message" id="error">Password Incorrect</p>
+     
+     
+  </div>
+   <label style= "margin-left: 60px; margin-top: 10px; ">New registration ?<a href="Registration.html">Sign up</a></label>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+127.0.0.1 - - [06/Jun/2025:12:50:43 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:12:50:45 +0530] "GET /Servlet_employee/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:12:50:45 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:12:51:37 +0530] "POST /Servlet_employee/submit HTTP/1.1" 200 425
+127.0.0.1 - - [06/Jun/2025:12:55:55 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:12:56:36 +0530] "POST /Servlet_employee/submit HTTP/1.1" 200 448
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:12:57:40 +0530] "POST /Servlet_employee/submit HTTP/1.1" 200 425
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:12:57:44 +0530] "GET /Servlet_employee/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:12:58:49 +0530] "POST /Servlet_employee/submit HTTP/1.1" 200 453
+127.0.0.1 - - [06/Jun/2025:16:32:42 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:16:32:43 +0530] "GET /Sevlet_Project/Registration.html HTTP/1.1" 200 2731
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:16:32:43 +0530] "GET /Sevlet_Project/style.css HTTP/1.1" 200 1113
+0:0:0:0:0:0:0:1 - - [06/Jun/2025:16:32:43 +0530] "GET /favicon.ico HTTP/1.1" 404 763

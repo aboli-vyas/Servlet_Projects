@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<form action="login" method="post">
+  <div class="login-container">
+    <h2>Login</h2>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Login</button>
+
+      <p class="error-message" id="error">Password Incorrect</p>
+        <label class="sign">Already have an account ?<a href="user_login.jsp"><u>Log in</u></a></label>
+  </div>
+    </form>
+</body>
+</html>

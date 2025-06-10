@@ -1,0 +1,10 @@
+package sevlet_program;
+
+
+import jakarta.servlet.http.HttpServlet;
+
+public class Student extends HttpServlet {
+
+	
+
+}

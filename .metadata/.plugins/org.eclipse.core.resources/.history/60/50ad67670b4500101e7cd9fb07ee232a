@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-links">
+      <a href="https://mail.google.com/mail/u/0/">Gmail</a>
+      <a href="#">Images</a>
+    </div>
+  </header>
+
+  <main>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+         alt="Google Logo" class="logo"/>
+
+    <form class="search-form" action="submit" method="post">
+      <input type="text" name="search" placeholder="Search Google or type a URL" required />
+      <div class="buttons">
+        <button type="submit">Google Search</button>
+      </div>
+    </form>
+  </main>
+
+</body>
+</html>

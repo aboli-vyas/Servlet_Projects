@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(120deg, #f6f9fc, #e0f7fa);
+    background-image: url("Images/bg4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0;  
+    
+}
+button{
+	margin-left: 1300px;
+	border-radius: 10px;
+	width:100px;
+	height:40px;
+	background-color: red;
+	color: white;
+	position: fixed;
+	border:none;
+	font-size: 20px;
+	font-weight:bold;
+}
+h1{
+	margin-left: 650px;
+	color: white;
+	font-size: 40px;
+
+}
+.container{
+	margin-left: 630px;
+	font-size: 20px;
+	scroll-margin-top: 60px;
+	position: absolute;
+	
+}

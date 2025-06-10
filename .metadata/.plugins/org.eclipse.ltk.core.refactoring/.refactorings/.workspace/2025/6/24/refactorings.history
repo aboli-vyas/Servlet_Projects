@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SendRedirect_project&apos; to &apos;SendRedirect_Google_Demo&apos;" description="Rename resource &apos;SendRedirect_project&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SendRedirect_project" name="SendRedirect_Google_Demo" stamp="1749457802323" updateReferences="true"/>
+</session>

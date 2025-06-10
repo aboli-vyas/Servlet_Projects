@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Profile Page</h1>
+
+	<h2>First Name :${First_Name}</h2>
+	
+	<h2>Last Name :${Last_Name}</h2>
+	
+	<h2>Email :${Email}</h2>
+	
+	<h2>Mobile Number :${Mobile_Number}</h2>
+	<br>
+	<h2>Gender :${Gender}</h2>
+	<br>
+	<h2>City :${City}</h2>
+	<br>
+	<h2>State :${State}</h2>
+	<br>
+	<h2>Country :${Country}</h2>
+	<br>
+    <h2>Education :${Education}</h2>
+    <br>
+    <h2>10th marks :${tenth_Marks}</h2>
+    <br>
+    <h2>12th marks :${twelth_Marks}</h2>
+    <br>
+    <h2>Date of birth :${Date_of_Birth}</h2>
+    <br>
+	<h2>Technical Skills :${Technical_Skills}</h2>
+	
+</body>
+</html>
